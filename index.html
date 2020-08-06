@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chat box</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="chat-container">
+		<div id="search-container">
+			<input type="text" placeholder="Search" name="searching">
+		</div>
+		<div id="conversation-list">
+
+		</div>
+		<div id="new-message-container">
+			<a href="#">+</a>
+		</div>
+		<div id="chat-title">
+			<span>Bhagavan</span>
+			<img src="trash.png" alt="trash">
+			
+		</div>
+		<div id="chat-message-list">
+			<div class="message-row">
+				<div class="message-text">
+					<ul id="messages"></ul>
+					<ul id="time"></ul>
+				</div>
+				<div class="message-time">
+				</div>
+			</div>
+		</div>
+		<div id="chat-form">
+			<input type="text" id="textbox" placeholder="Type a message" name="message">
+			<button id="button">send</button>
+			<script type="text/javascript" src="script.js"></script>
+		</div>
+	</div>
+</body>
+</html>
