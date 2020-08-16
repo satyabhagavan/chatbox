@@ -131,11 +131,13 @@ body
 	display: flex;
 	flex-direction: column-reverse;
 	padding: 0 20px;
+	height: 70vh;
 }
 
 .message-row
 {
 	margin-bottom: 20px;
+	overflow: auto;
 }
 
 .message-text
@@ -161,7 +163,7 @@ li
 	justify-items: end;
 	padding: 5px;
 	margin: 15px;
-	margin-left:300px; 
+	margin-left: 300px;
 }
 
 .message-text ul
@@ -170,7 +172,7 @@ li
 	list-style: none;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	font-size: 2.4rem;
+	font-size: 2rem;
 }
 
 #chat-form
